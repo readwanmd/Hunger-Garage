@@ -1,0 +1,156 @@
+header {
+	height: 100vh;
+	width: 100%;
+	background-image: url(./utility/Bg.jpg);
+}
+
+nav {
+	font-size: 22px;
+}
+
+nav a {
+	color: #fff !important;
+}
+
+nav img {
+	width: 100px;
+}
+
+.hero-image {
+	position: absolute;
+	bottom: 0;
+	left: 12.5%;
+}
+
+.page-header {
+	color: #fff;
+}
+
+.page-header h1 {
+	font-family: 'Redressed', cursive;
+	font-size: 90px;
+	letter-spacing: 10px;
+}
+
+.page-header p {
+	color: #ffb300;
+	font-size: 25px;
+	letter-spacing: 20px;
+}
+
+.Food-Area {
+	background-image: url(./utility/Bg2.png);
+	padding-bottom: 40px;
+}
+
+.row img {
+	width: 300px;
+}
+
+.meal {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 50px;
+	/* margin: 10px; */
+}
+
+.meal-item {
+	padding: 15px;
+	transition: 0.3s;
+	/* border: 1px solid red; */
+}
+
+.meal-item h5 {
+	padding-top: 8px;
+}
+
+.meal-item button {
+	font-weight: bold;
+}
+
+.meal-item:hover {
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	background-color: #fff;
+	box-shadow: 0px 0px 18px 1px #333333;
+}
+
+.Order-Process {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.Order-Process img {
+	width: 75px;
+}
+
+.order {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 50px;
+	font-family: 'Merienda', cursive;
+}
+.order h4 {
+	padding-top: 18px;
+}
+.order h5 {
+	padding-top: 18px;
+}
+
+.orderc {
+	width: 200px;
+	transition: 0.3s;
+}
+
+.orderc:hover {
+	border-top-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	background-color: #fff;
+	box-shadow: 0px 0px 18px 1px #333333;
+}
+
+.footer-area img {
+	width: 100px;
+}
+
+.footer-area {
+	background: #ffb300;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.footer-area li {
+	list-style: none;
+	padding: 3px 0;
+}
+
+.footer-area ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+	.hero-image {
+		position: absolute;
+		bottom: 0;
+		left: 0%;
+	}
+
+	.page-header h1 {
+		padding-top: 60px;
+		font-size: 50px;
+	}
+
+	.page-header p {
+		font-size: 20px;
+		letter-spacing: 10px;
+	}
+}
